@@ -3,16 +3,10 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <section class="hero">
-        <div class="hero-body">
-          <p class="title">A React Task</p>
-          <p class="subtitle">by Boom.dev</p>
-        </div>
-      </section>
-      <div class="container is-fullhd">
-        <div class="notification">
-          Edit the <code>./src</code> folder to add components.
-        </div>
+      <div className="wrapper">
+        <h3 className="mealHeading">Sushi</h3>
+        <div className="description">I prefer steak than sushi.</div>
+        <div className="price">$9.99</div>
       </div>
     </div>
   );
